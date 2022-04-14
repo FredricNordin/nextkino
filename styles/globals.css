@@ -1,0 +1,114 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ------Header component------ */
+header {
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+nav {
+  margin-top: 5rem;
+  width: 100%;
+  height: 42px;
+  background-color: rgb(243, 243, 243);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  text-align: center;
+  padding: 12px 100px;
+}
+
+nav li:hover {
+  background-color: rgb(225, 225, 225);
+}
+/*------------*/
+
+/*------MAIN------*/
+main {
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+}
+/*------------*/
+
+/*------LiveNow component------*/
+.latest-movie {
+  margin: 2rem auto;
+  width: 40rem;
+  height: 10rem;
+  background-color: rgb(225, 225, 225);
+}
+
+.latest-movie:hover {
+  background-color: rgb(216, 216, 216);
+}
+/*------------*/
+
+/*------MovieList component------*/
+.title-text {
+  text-align: center;
+}
+
+.movie-listing {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.available-movie {
+  margin: 2rem;
+  width: 11rem;
+  height: 15rem;
+  background-color: rgb(225, 225, 225);
+}
+
+.available-movie:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+.upcoming-movie {
+  margin: 2rem;
+  width: 11rem;
+  height: 15rem;
+  background-color: rgb(225, 225, 225);
+}
+
+.upcoming-movie:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+/*------Footer component------*/
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 13px;
+}
