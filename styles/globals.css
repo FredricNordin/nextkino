@@ -20,6 +20,7 @@ header {
 }
 
 .logo {
+  margin-top: -1.8rem;
   font-size: 32px;
 }
 
@@ -80,12 +81,13 @@ main {
 .movie-listing {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 0 auto;
+  width: 80vw;
 }
 
 .available-movie {
-  margin: 2rem;
+  margin: 1rem;
   width: 11rem;
   height: 15rem;
   background-color: rgb(225, 225, 225);
@@ -96,7 +98,7 @@ main {
 }
 
 .upcoming-movie {
-  margin: 2rem;
+  margin: 1rem;
   width: 11rem;
   height: 15rem;
   background-color: rgb(225, 225, 225);
